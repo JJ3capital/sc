@@ -58,6 +58,9 @@ tr {
 table.apprequest-form {
 	border-collapse: collapse;
 }
+table.user-form {
+	border-collapse: collapse;
+}
 td.form {
 	padding-right: 5px;
 	padding-left: 5px;
@@ -66,6 +69,15 @@ td.form {
 	font-size: 13px;
 	background: Gainsboro;
 }
+td.user-form {
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align: right;
+	width: 125px;
+	font-size: 13px;
+	background: white;
+}
+
 td.apptracker {
 	padding-right: 5px;
 	padding-left: 5px;
@@ -74,7 +86,7 @@ td.apptracker {
 
 div.menu-buttons {
 	position: relative;
-	top: -30px;
+	top: -100px;
 	left: 50px;
 }
 div.apprequest-icon {
@@ -96,7 +108,7 @@ div.docs-icon {
 
 div.content {
 	position: relative;
-	top: -20px;
+	top: -90px;
 	left: 50px;
 }
 
@@ -230,10 +242,13 @@ div.summary {
 	left: 5px;
 }
 #update-comments-label {
-	left: 3px;
+	display: block;
+	width: 50px;
+	left: 10px;
+	text-align: top;
 }
 #id_comments {
-	width: 600px;
+	width: 670px;
 	position: relative;
 	left: 10px;
 }
@@ -262,6 +277,12 @@ div.summary {
 	position: relative;
 	/*left: 40px;*/
 }
+#id_email_user {
+	width: 250px;
+	position: relative;
+	/*left: 40px;*/
+}
+
 #update-customer-label {
 	/*left: 120px;*/
 }
@@ -271,16 +292,23 @@ div.summary {
 	/*left: 125px;*/
 }
 
-
+div.whiteblock-login {
+	position:relative;
+	height: 30px;
+	width: 120px;
+	top: 50px;
+	left: 220px;
+	background: white;
+}
 div.login-form {
 	position: relative;
-	left: 205px;
-	top: 50px;
+	left: 222px;
+	top: 20px;
 }
 #id_username, #id_password {
 	font-family: Arial;
 	font-size: 15px;
-	width: 210px;
+	width: 230px;
 }
 td.login-label {
 	font-family: Arial;
@@ -288,8 +316,8 @@ td.login-label {
 }
 a.login-menu:link, a.login-menu:visited {
 	position: relative;
-	top: 20px;
-	left: 258px;
+	top: -15px;
+	left: 275px;
 	color: black;
 	font-family: Arial;
 	font-size: 15px;
@@ -301,8 +329,8 @@ a.login-menu:hover {
 
 div.main-menu {
 	position: relative;
-	top: 50px;
-	left: 260px;
+	top: -370px;
+	left: 280px;
 }
 a.main-menu, a.main-menu:visited {
 	font-family: Arial;
@@ -375,17 +403,23 @@ div.thirteen {
 
 div.jje-appreq-small {
 	position: relative;
-	top: -15px;
-	left: 20px;
+	top: 21px;
+	left: 30px;
+}
+
+div.jje-appreq {
+	position: relative;
+	left: 0px;
+	top: 0px;
 }
 
 div.customer-logo-small {
 	position: relative;
-	top: -87px;
+	top: -95px;
 	left: 625px;
 }
 
-div.green-bar {
+div.DimensionData-bar {
 	position: relative;
 	width: 402px;
 	height: 5px;
@@ -393,3 +427,94 @@ div.green-bar {
 	left: 197px;
 	background: Limegreen;
 }
+div.Dell-bar {
+	position: relative;
+	width: 402px;
+	height: 5px;
+	top: -30px;
+	left: 197px;
+	background: SteelBlue;
+}
+
+div.APaaS-bar {
+	position: relative;
+	width: 402px;
+	height: 5px;
+	top: -30px;
+	left: 197px;
+	background: black;
+}
+
+div.JJECapital-bar {
+	position: relative;
+	width: 402px;
+	height: 5px;
+	top: -30px;
+	left: 197px;
+	background: black;
+}
+
+div.Global-bar {
+	position: relative;
+	width: 402px;
+	height: 5px;
+	top: -30px;
+	left: 197px;
+	background: black;
+}
+
+div.menu {
+	position: relative;
+	top: -20px;
+}
+
+div.badpassword {
+	position: relative;
+	left: 225px;
+	top: 10px;
+	width: 500px;
+	height: 30px;
+	background: white;
+}
+
+
+div.whiteblock-badpassword {
+	position:relative;
+	height: 30px;
+	width: 120px;
+	top: 50px;
+	left: 0px;
+	background: white;
+}
+
+div.trouble-logging-in {
+	position: relative;
+	left: 300px;
+	top: 0px;
+}
+
+.user-form #id_email {
+	width: 230px !important;
+	height: 17px;
+}
+.user-form #id_first_name {
+	width: 230px !important;
+	height: 17px;
+}
+.user-form #id_last_name {
+	width: 230px !important;
+	height: 17px;
+}
+.user-form #id_groups {
+	width: 234px !important;
+	font-size: 11px;
+}
+.user-form #id_name {
+	width: 300px !important;
+	height: 17px;
+}
+.user-form #id_permissions {
+	width: 304px !important;
+	font-size: 11px;
+}
+
